@@ -1,0 +1,256 @@
+/* ====== start responsive ========== */
+@media (max-width:991px) {
+
+    .product {
+        display: block;
+    }
+
+    .product .pro-img {
+        width: 100%;
+    }
+
+    .product .pro-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .list::-webkit-scrollbar {
+        width: 2px;
+        -webkit-border-radius: 2px !important;
+        border-radius: 2px !important;
+    }
+
+    /* Track */
+
+    .list::-webkit-scrollbar-track {
+        background: #139feb;
+        -webkit-border-radius: 2px !important;
+        border-radius: 2px !important;
+    }
+
+    /* Handle */
+
+    .list::-webkit-scrollbar-thumb {
+        background: #139feb;
+        -webkit-border-radius: 2px !important;
+        border-radius: 2px !important;
+    }
+
+    /* Handle on hover */
+
+    .list::-webkit-scrollbar-thumb:hover {
+        background: #139feb;
+    }
+
+
+    
+
+    .ads-content h1 {
+        font-size: 30px;
+    }
+
+    .ads-content p {
+        font-size: 22px;
+    }
+
+    .slider-img {
+        height: 350px;
+    }
+
+    .slider-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .slider-content {
+        width: 100%;
+    }
+
+    .slider-content p {
+        display: none;
+    }
+
+    .slider-content h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+
+    }
+
+    .btn-slide {
+        font-size: 14px;
+        line-height: 35px;
+        padding: 0 30px;
+    }
+
+    .ads .btn-more {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width:767px) {
+    .logo {
+        margin: 0 auto;
+        width: 178px;
+
+    }
+
+    .content-logo {
+        text-align: center;
+    }
+
+    .news-details {
+        text-align: center;
+    }
+
+    .ads-img {
+        margin-bottom: 30px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .top-header .contact-top li {
+        display: block;
+        padding-bottom: 0;
+
+    }
+
+    .top-header .contact-top li:nth-child(2) {
+        display: none;
+    }
+
+    .top-header .social,
+    .header-icon {
+        float: none !important;
+    }
+
+    .header-icon {
+        margin: 10px 0;
+    }
+    .mt-100 {
+        margin-top: 40px;
+    }
+    .sec-title h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .list .nav-link img {
+
+        height: 45px;
+    }
+    .list {
+        justify-content: inherit;
+    }
+    .list .nav-link p {
+        font-size: 16px;
+    }
+    .list .nav-link {
+        padding: 22px 40px;
+    }
+    .our-products.mt-100{
+        margin-top: 20px;
+    }
+    .subscribe.mt-100 {
+        margin-top: 20px;
+    }
+    .py-100 {
+        padding: 50px 0;
+    }
+    .loader-inner:before {
+        font-size: 40px;
+    }
+    .widget_title h4 {
+        margin-top: 26px;
+        margin-bottom: 10px;  
+        font-size: 17px;
+    }
+    .md-footer {
+        padding: 40px 0;
+    }
+    #back-to-top {
+        bottom: 50px;
+        left: 15px;
+        background-color: #076cec80;
+        font-size: 16px;
+    }
+    .news-details .news-name a {
+        font-size: 19px;
+    }
+    .ads-content h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+    .ads-content p {
+        font-size: 18px;
+    }
+    .ads-img {
+        height: 250px;
+    }
+    .ads-img img{
+        height: 100%;
+    }
+    /**************************/
+    .list{
+        overflow-x: scroll !important;
+        width: 100% !important;
+        min-width: max-content;
+        overflow-y: hidden !important;
+        white-space: nowrap !important;
+        padding-bottom: 10px;
+    }
+    .list li {
+        display: inline-block !important;
+        float: none !important;
+        margin-bottom: 5px !important;
+    }
+    .list::-webkit-scrollbar-thumb {
+        background: #139feb !important;
+        border-radius: 10px !important;
+        height: 3px !important;
+        margin-top: 15px !important;
+    }
+    .list::-webkit-scrollbar {
+        height: 3px !important;
+    }
+    /*************************************************************/
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width:992px) and (max-width: 1024px) {
+
+    .slider-img {
+        height: 608px;
+    }
+
+    .slider-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .slider-content h1 {
+        font-size: 40px;
+    }
+    .news-details .news-name a {
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 500px){
+    .sec-title h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .btn-subscribe {
+        max-width: 80px;
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    .subscribe .form-control {
+        width: calc(100% - 80px);
+        padding: 15px;
+    }
+}

@@ -1,0 +1,93 @@
+header .desk-menu .menu-container .menu > li.menu-item-has-children > a::after{
+    padding-right: 0;
+    padding-left: 5px;
+}
+header .desk-menu .menu-container .menu > li{
+    float: left;
+}
+.header-icon li .badge{
+    left: 8px;
+}
+body.open-menu .menu-container {
+    right:0 !important;
+    left: auto !important;
+}
+body.open-menu {
+    right: -250px;
+    left: auto;
+}
+header .desk-menu .menu-container {
+    float: right;
+  }
+  header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu{
+    right: 0;
+    left: auto;
+}
+header .desk-menu .menu-container .menu > li.menu-item-has-children a{
+    text-align: left;
+}
+.news-details .date span::after{
+    left: auto;
+    right: 0;
+}
+.news-details .date span{
+    padding: 0 10px 0 0 ;
+    margin: 0 10px  10px 0 ;
+}
+.news-details .date span i, .news-details .news-info .news-tags i{
+    margin: 0 5px 0 0 ;
+
+}
+.btn-more i {
+    transform: rotatey(180deg);
+    margin: 0 0 0 5px;
+
+}
+.btn-subscribe{
+    left: auto;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+}
+.subscribe .form-control{
+    border-radius:  5px 0 0 5px ;
+
+}
+.partners button i{
+    transform: rotatey(180deg);
+
+}
+footer li i {
+    margin-left: 0;
+    margin-right: 5px;
+}
+#back-to-top{
+    left: auto;
+    right: 20px;
+}
+@media (max-width: 991px){
+    header .desk-menu .menu-container .menu > li{
+        float: left;
+    }
+    header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu{
+        left:100%;
+        right: auto;
+    }
+    header .desk-menu .menu-container{
+        right: -250px;
+        left: auto;
+    }
+    header .desk-menu .menu-container .menu > li.menu-item-has-children .sub-menu.open-sub{
+        left: 0%;
+        right: auto;
+    }
+    header .desk-menu .menu-container .menu > li{
+        text-align: left;
+    }
+    header .desk-menu .menu-container .menu > li.menu-item-has-children a::after {
+        float: right;
+        content: "\f054";
+    }
+    header .hamburger-menu.ham-close{
+        float: right;
+    }
+}
